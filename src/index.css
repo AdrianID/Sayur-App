@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Public Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  background-color: #24c5ca;
+}
+
+.category-aktif {
+  background-color: #24c5ca;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #24c5ca;
+}
+
+@media only screen and (max-height: 1000px) {
+  .hasil {
+    height: 650px;
+  }
+
+  .menu{
+    height: 800px;
+  }
+}
+
+
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
